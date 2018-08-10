@@ -1,0 +1,14 @@
+.select-search-list-item {color:black;}
+ .select-search-list-item_selection{color:black;}
+
+@font-face{
+	font-family:'Droid Arabic Naskh';
+	src:url('bootstrap/css/fonts/DroidArabicNaskh.eot'),url('bootstrap/css/fonts/DroidArabicNaskh.woff'),url('bootstrap/css/fonts/DroidArabicNaskh.ttf');
+	src:url('bootstrap/css/fonts/DroidArabicNaskh-Bold.eot'),url('bootstrap/css/fonts/DroidArabicNaskh-Bold.woff'),url('bootstrap/css/fonts/DroidArabicNaskh-Bold.ttf');
+}
+
+html.*{
+  font-family: "Droid Arabic Naskh";
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}

@@ -1,0 +1,748 @@
+[18-Apr-2017 09:54:06 Asia/Tehran] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/amlakga1/public_html/index.php on line 37
+[18-Apr-2017 09:54:44 Asia/Tehran] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/amlakga1/public_html/index.php on line 39
+[18-Apr-2017 09:54:46 Asia/Tehran] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/amlakga1/public_html/index.php on line 39
+[18-Apr-2017 12:22:03 Asia/Tehran] PHP Fatal error:  Cannot access protected property Telegram\Bot\Objects\Update::$items in /home/amlakga1/public_html/hook.php on line 9
+[18-Apr-2017 13:05:39 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[18-Apr-2017 13:05:54 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[18-Apr-2017 13:05:57 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[18-Apr-2017 13:06:03 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[18-Apr-2017 13:13:50 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[18-Apr-2017 13:13:54 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/hook.php on line 10
+[18-Apr-2017 13:40:39 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[18-Apr-2017 15:10:33 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/hook.php on line 10
+[18-Apr-2017 15:10:41 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/hook.php on line 10
+[18-Apr-2017 15:10:50 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/hook.php on line 10
+[18-Apr-2017 15:11:37 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/hook.php on line 10
+[19-Apr-2017 08:48:37 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[19-Apr-2017 10:51:33 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[20-Apr-2017 15:03:56 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[20-Apr-2017 15:06:28 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:06:51 Asia/Tehran] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/index.php on line 10
+[20-Apr-2017 15:07:25 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/index.php on line 30
+[20-Apr-2017 16:05:15 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: field "keyboard" of the ReplyKeyboardMarkup should be an Array of Arrays' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:05:15 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: field "keyboard" of the ReplyKeyboardMarkup should be an Array of Arrays' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:05:36 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: field "keyboard" of the ReplyKeyboardMarkup should be an Array of Arrays' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:11:54 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: field "keyboard" of the ReplyKeyboardMarkup should be an Array of Arrays' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:26:27 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:26:40 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:26:59 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:27:03 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:27:51 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:29:42 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:33:41 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:33:58 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 39
+[20-Apr-2017 16:34:21 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 43
+[20-Apr-2017 16:34:43 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 43
+[20-Apr-2017 16:34:51 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 43
+[20-Apr-2017 16:35:04 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 43
+[20-Apr-2017 16:35:46 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 49
+[20-Apr-2017 16:35:50 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 49
+[20-Apr-2017 16:35:52 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 49
+[20-Apr-2017 16:36:14 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 49
+[20-Apr-2017 16:36:47 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 49
+[20-Apr-2017 16:38:01 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 16:40:01 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 16:40:19 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[20-Apr-2017 16:40:29 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[20-Apr-2017 16:40:45 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 16:40:46 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 16:40:55 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:41:08 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:41:43 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:42:23 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:49:23 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 26
+[20-Apr-2017 16:49:30 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 26
+[20-Apr-2017 16:49:33 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 26
+[20-Apr-2017 16:49:39 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 26
+[20-Apr-2017 16:50:02 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 16:50:08 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:50:29 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:50:56 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:52:28 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: can't parse keyboard button: KeyboardButton should be a String or an Object' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(151 in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[20-Apr-2017 16:54:16 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 17:01:20 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[20-Apr-2017 17:06:57 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 11
+[20-Apr-2017 17:07:26 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 11
+[20-Apr-2017 17:07:30 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 11
+[20-Apr-2017 17:08:15 Asia/Tehran] PHP Parse error:  syntax error, unexpected end of file in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 166
+[20-Apr-2017 17:13:56 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 22
+[21-Apr-2017 08:50:06 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/amlakga1/public_html/application/controllers/reserve/Reserve.php on line 8
+[21-Apr-2017 09:21:02 Asia/Tehran] PHP Fatal error:  Call to undefined method CI_Loader::libraries() in /home/amlakga1/public_html/application/controllers/reserve/Reserve.php on line 13
+[21-Apr-2017 09:45:34 Asia/Tehran] PHP Fatal error:  Call to undefined method CI_Loader::libraries() in /home/amlakga1/public_html/application/controllers/reserve/Reserve.php on line 13
+[21-Apr-2017 09:49:19 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/amlakga1/public_html/application/controllers/reserve/Reserve.php on line 14
+[21-Apr-2017 10:14:45 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/amlakga1/public_html/application/controllers/reserve/Reserve.php on line 14
+[21-Apr-2017 10:21:15 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[21-Apr-2017 14:02:03 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: chat_id is empty' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): Telegram\Bot\TelegramClient->sendRequest(Object(Telegra in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[21-Apr-2017 14:02:37 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: chat_id is empty' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): Telegram\Bot\TelegramClient->sendRequest(Object(Telegra in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[21-Apr-2017 14:03:04 Asia/Tehran] PHP Fatal error:  Call to undefined method mysqli_result::num_rows() in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 17
+[21-Apr-2017 14:03:26 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: chat_id is empty' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): Telegram\Bot\TelegramClient->sendRequest(Object(Telegra in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[21-Apr-2017 14:03:55 Asia/Tehran] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 17
+[21-Apr-2017 14:04:08 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: chat_id is empty' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): Telegram\Bot\TelegramClient->sendRequest(Object(Telegra in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[21-Apr-2017 14:27:41 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:27:54 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:28:30 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:28:33 Asia/Tehran] PHP Parse error:  syntax error, unexpected '":00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:29:18 Asia/Tehran] PHP Parse error:  syntax error, unexpected '":00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:29:22 Asia/Tehran] PHP Parse error:  syntax error, unexpected '":00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:30:27 Asia/Tehran] PHP Parse error:  syntax error, unexpected '":00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:30:46 Asia/Tehran] PHP Parse error:  syntax error, unexpected '":00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 66
+[21-Apr-2017 14:32:07 Asia/Tehran] PHP Parse error:  syntax error, unexpected '":00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 69
+[21-Apr-2017 14:32:10 Asia/Tehran] PHP Parse error:  syntax error, unexpected '"\:00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 69
+[21-Apr-2017 14:33:06 Asia/Tehran] PHP Parse error:  syntax error, unexpected '"\:00"' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 69
+[21-Apr-2017 14:34:07 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 14:34:19 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 65
+[21-Apr-2017 15:00:03 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'mod' (T_STRING) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:01:28 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:01:45 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:02:20 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 72
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:03:27 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:04:10 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 15:10:10 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:20:08 Asia/Tehran] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 68
+[21-Apr-2017 16:22:08 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Telegram\Bot\Exceptions\TelegramOtherException' with message 'Bad Request: field "keyboard" of the ReplyKeyboardMarkup should be an Array of Arrays' in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php:58
+Stack trace:
+#0 /home/amlakga1/public_html/src/TelegramResponse.php(184): Telegram\Bot\Exceptions\TelegramResponseException::create(Object(Telegram\Bot\TelegramResponse))
+#1 /home/amlakga1/public_html/src/TelegramResponse.php(214): Telegram\Bot\TelegramResponse->makeException()
+#2 /home/amlakga1/public_html/src/TelegramResponse.php(65): Telegram\Bot\TelegramResponse->decodeBody()
+#3 /home/amlakga1/public_html/src/TelegramClient.php(138): Telegram\Bot\TelegramResponse->__construct(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#4 /home/amlakga1/public_html/src/TelegramClient.php(119): Telegram\Bot\TelegramClient->getResponse(Object(Telegram\Bot\TelegramRequest), Object(GuzzleHttp\Psr7\Response))
+#5 /home/amlakga1/public_html/src/Api.php(1510): in /home/amlakga1/public_html/src/Exceptions/TelegramResponseException.php on line 58
+[21-Apr-2017 16:23:23 Asia/Tehran] PHP Parse error:  syntax error, unexpected '&' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 67
+[21-Apr-2017 16:34:49 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$time' (T_VARIABLE) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 95
+[21-Apr-2017 16:35:12 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$time' (T_VARIABLE) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 95
+[21-Apr-2017 16:35:53 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[22-Apr-2017 09:49:05 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 99
+[22-Apr-2017 09:49:24 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 99
+[22-Apr-2017 09:50:04 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 10
+[22-Apr-2017 10:05:21 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 103
+[22-Apr-2017 10:05:21 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 103
+[22-Apr-2017 10:06:57 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 103
+[22-Apr-2017 10:06:57 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 103
+[22-Apr-2017 10:14:10 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:14:10 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:14:10 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:14:10 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:14:10 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:14:10 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:16:02 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:16:02 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:16:02 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:16:02 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:16:02 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:16:02 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:16:22 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:16:22 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:16:22 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:16:22 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:16:22 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:16:22 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:16:50 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:16:50 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:16:50 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:16:50 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:16:50 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:16:50 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:18:00 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:18:00 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 107
+[22-Apr-2017 10:18:00 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:18:00 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:18:00 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:18:00 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 110
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 108
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 109
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 109
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 111
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 111
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 113
+[22-Apr-2017 10:23:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 113
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 29
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 29
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 30
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 30
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 31
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 31
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 32
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 32
+[22-Apr-2017 10:43:26 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 55
+[22-Apr-2017 10:44:40 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 51
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:48:46 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:17 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:29 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:36 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:49:44 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:12 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:15 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:19 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 151
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 154
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): Access denied for user 'amlakga1'@'localhost' (using password: NO) in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:51:54 Asia/Tehran] PHP Warning:  mysql_query(): A link to the server could not be established in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[22-Apr-2017 10:58:53 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 10:59:01 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 11:35:13 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 14:35:25 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 14:35:36 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 14:35:45 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 14:35:51 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 17:21:16 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 17:21:28 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[22-Apr-2017 19:18:57 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 152
+[23-Apr-2017 12:43:22 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 146
+[23-Apr-2017 12:43:50 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 146
+[23-Apr-2017 12:44:08 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[23-Apr-2017 12:44:23 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 168
+[23-Apr-2017 12:44:35 Asia/Tehran] PHP Warning:  mysqli_result::close(): Couldn't fetch mysqli_result in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 168
+[23-Apr-2017 12:44:58 Asia/Tehran] PHP Warning:  mysqli_result::close(): Couldn't fetch mysqli_result in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 168
+[23-Apr-2017 12:46:23 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 156
+[23-Apr-2017 12:48:20 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[23-Apr-2017 12:48:37 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 169
+[23-Apr-2017 12:53:22 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 188
+[23-Apr-2017 12:53:52 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 188
+[23-Apr-2017 12:53:57 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[23-Apr-2017 12:53:59 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[23-Apr-2017 12:55:18 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 189
+[23-Apr-2017 12:55:46 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 189
+[23-Apr-2017 12:56:45 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 189
+[23-Apr-2017 12:57:59 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 189
+[23-Apr-2017 12:59:20 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 169
+[23-Apr-2017 12:59:31 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 187
+[23-Apr-2017 12:59:37 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 169
+[23-Apr-2017 12:59:43 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 169
+[23-Apr-2017 13:01:15 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[23-Apr-2017 13:02:51 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[23-Apr-2017 13:02:55 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 190
+[23-Apr-2017 13:03:01 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[23-Apr-2017 13:03:10 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[23-Apr-2017 13:03:28 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 190
+[23-Apr-2017 15:18:24 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 53
+[23-Apr-2017 19:46:58 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[23-Apr-2017 20:01:48 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[24-Apr-2017 11:16:12 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 190
+[24-Apr-2017 11:16:23 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 172
+[25-Apr-2017 10:46:27 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 207
+[25-Apr-2017 10:46:32 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 207
+[25-Apr-2017 10:46:48 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 207
+[25-Apr-2017 10:47:00 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 207
+[25-Apr-2017 10:51:39 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 44
+[25-Apr-2017 10:55:43 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 178
+[25-Apr-2017 10:55:48 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 160
+[25-Apr-2017 11:09:32 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 44
+[26-Apr-2017 10:27:45 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 44
+[26-Apr-2017 10:42:05 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 160
+[30-Apr-2017 09:02:45 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 44
+[02-May-2017 11:49:19 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 84
+[02-May-2017 11:51:08 Asia/Tehran] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 90
+[02-May-2017 11:51:23 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:08:26 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:08:27 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:08:28 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:08:28 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:08:40 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 102
+[02-May-2017 12:08:47 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 102
+[02-May-2017 12:09:41 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 102
+[02-May-2017 12:09:44 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 102
+[02-May-2017 12:09:49 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:09:53 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 102
+[02-May-2017 12:10:12 Asia/Tehran] PHP Fatal error:  Call to a member function query() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 102
+[02-May-2017 12:12:24 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (@) at position 0 (@): Unexpected character' in /home/amlakga1/public_html/jdatetime/jdatetime.class.php:130
+Stack trace:
+#0 /home/amlakga1/public_html/jdatetime/jdatetime.class.php(130): DateTime->__construct('@', Object(DateTimeZone))
+#1 /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php(114): jDateTime::date('l', NULL, true, true)
+#2 {main}
+  thrown in /home/amlakga1/public_html/jdatetime/jdatetime.class.php on line 130
+[02-May-2017 12:12:33 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:12:43 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (@) at position 0 (@): Unexpected character' in /home/amlakga1/public_html/jdatetime/jdatetime.class.php:130
+Stack trace:
+#0 /home/amlakga1/public_html/jdatetime/jdatetime.class.php(130): DateTime->__construct('@', Object(DateTimeZone))
+#1 /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php(114): jDateTime::date('l', NULL, true, true)
+#2 {main}
+  thrown in /home/amlakga1/public_html/jdatetime/jdatetime.class.php on line 130
+[02-May-2017 12:12:54 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (@) at position 0 (@): Unexpected character' in /home/amlakga1/public_html/jdatetime/jdatetime.class.php:130
+Stack trace:
+#0 /home/amlakga1/public_html/jdatetime/jdatetime.class.php(130): DateTime->__construct('@', Object(DateTimeZone))
+#1 /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php(114): jDateTime::date('l', NULL, true, true)
+#2 {main}
+  thrown in /home/amlakga1/public_html/jdatetime/jdatetime.class.php on line 130
+[02-May-2017 12:14:29 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:14:38 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[02-May-2017 12:16:04 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[02-May-2017 12:16:45 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 246
+[02-May-2017 12:16:51 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[03-May-2017 13:59:13 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[07-May-2017 09:24:41 Asia/Tehran] PHP Fatal error:  Call to a member function getChat() on null in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 47
+[12-May-2017 11:19:15 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[12-May-2017 11:23:22 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 246
+[12-May-2017 11:25:43 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[12-May-2017 11:27:26 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[12-May-2017 11:27:35 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 246
+[12-May-2017 15:02:49 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[12-May-2017 15:04:17 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[13-May-2017 20:54:32 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 246
+[13-May-2017 20:55:03 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[31-May-2017 14:42:20 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[01-Jun-2017 21:42:29 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[01-Jun-2017 21:45:07 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 246
+[25-Jun-2017 23:08:07 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[06-Jul-2017 00:19:33 Asia/Tehran] PHP Fatal error:  Call to a member function close() on boolean in /home/amlakga1/public_html/AAHOqGTJ7VKYxKMWzUtObwKei5yYrl3ANCY.php on line 228
+[10-Dec-2017 10:18:11 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:20:01 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:20:01 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:21:30 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:25:54 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:25:56 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:34:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:34:41 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 6
+[10-Dec-2017 10:36:09 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:36:10 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:36:22 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:36:22 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:36:22 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:38:41 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:38:41 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:38:41 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:42:20 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:42:21 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:42:21 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:42:33 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:42:33 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:42:33 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 6
+[10-Dec-2017 10:43:10 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 10:43:10 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 10:43:10 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 10:43:52 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 10:43:52 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 10:43:52 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 10:44:36 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:11:17 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Welcome.php on line 4
+[10-Dec-2017 11:11:34 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Welcome.php on line 4
+[10-Dec-2017 11:12:39 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:12:42 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:12:45 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:12:55 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:13:36 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:13:37 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:13:38 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:13:40 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:13:46 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:14:35 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:14:36 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:14:47 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:15:05 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:15:24 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/application/views/login/login_view.php on line 7
+[10-Dec-2017 11:27:05 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:27:06 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:27:07 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:27:07 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:27:08 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 11:27:46 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 11:27:46 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 11:27:46 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Views.php on line 3
+[10-Dec-2017 13:49:16 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:21 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:29 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:30 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:30 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:30 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:30 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:40 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:50:41 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Dec-2017 13:59:56 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$userID' (T_VARIABLE), expecting function (T_FUNCTION) in /home/amlakga1/public_html/application/core/MY_Controller.php on line 5
+[10-Dec-2017 14:00:00 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$userID' (T_VARIABLE), expecting function (T_FUNCTION) in /home/amlakga1/public_html/application/core/MY_Controller.php on line 5
+[10-Dec-2017 14:00:06 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$userID' (T_VARIABLE), expecting function (T_FUNCTION) in /home/amlakga1/public_html/application/core/MY_Controller.php on line 5
+[10-Dec-2017 14:00:10 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$userID' (T_VARIABLE), expecting function (T_FUNCTION) in /home/amlakga1/public_html/application/core/MY_Controller.php on line 5
+[10-Dec-2017 14:00:56 Asia/Tehran] PHP Parse error:  syntax error, unexpected '$userID' (T_VARIABLE), expecting function (T_FUNCTION) in /home/amlakga1/public_html/application/core/MY_Controller.php on line 5
+[12-Dec-2017 10:57:58 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/amlakga1/public_html/application/controllers/Cource.php on line 8
+[12-Dec-2017 10:58:00 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/amlakga1/public_html/application/controllers/Cource.php on line 8
+[12-Dec-2017 10:59:09 Asia/Tehran] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/amlakga1/public_html/application/controllers/Cource.php on line 8
+[15-Dec-2017 16:57:42 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 16:57:46 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 16:59:11 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:00:05 Asia/Tehran] PHP Fatal error:  Class 'My_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:00:15 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:00:16 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:00:17 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:00:17 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:00:18 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:07:55 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:07:58 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:07:59 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:08:00 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:08:00 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[15-Dec-2017 17:08:29 Asia/Tehran] PHP Fatal error:  Class 'MY_Controller' not found in /home/amlakga1/public_html/application/controllers/Home/Home.php on line 3
+[10-Jan-2018 07:48:12 Asia/Tehran] PHP Fatal error:  Class 'PrestaShopWebservice' not found in /home/amlakga1/public_html/prestashopAPI.php on line 10
+[10-Jan-2018 07:49:11 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:49:11 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:49:11 Asia/Tehran] PHP Warning:  include(): Failed opening 'PrestaShopWebservice.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:49:11 Asia/Tehran] PHP Fatal error:  Class 'PrestaShopWebservice' not found in /home/amlakga1/public_html/prestashopAPI.php on line 6
+[10-Jan-2018 07:50:26 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:26 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:26 Asia/Tehran] PHP Warning:  include(): Failed opening 'PrestaShopWebservice.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:26 Asia/Tehran] PHP Fatal error:  Class 'PrestaShopWebservice' not found in /home/amlakga1/public_html/prestashopAPI.php on line 6
+[10-Jan-2018 07:50:30 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:30 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:30 Asia/Tehran] PHP Warning:  include(): Failed opening 'PrestaShopWebservice.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:30 Asia/Tehran] PHP Fatal error:  Class 'PrestaShopWebservice' not found in /home/amlakga1/public_html/prestashopAPI.php on line 6
+[10-Jan-2018 07:50:33 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:33 Asia/Tehran] PHP Warning:  include(PrestaShopWebservice.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:33 Asia/Tehran] PHP Warning:  include(): Failed opening 'PrestaShopWebservice.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/prestashopAPI.php on line 3
+[10-Jan-2018 07:50:33 Asia/Tehran] PHP Fatal error:  Class 'PrestaShopWebservice' not found in /home/amlakga1/public_html/prestashopAPI.php on line 6
+[10-Jan-2018 11:01:16 Asia/Tehran] PHP Fatal error:  Class 'JText' not found in /home/amlakga1/public_html/prestashopAPI.php on line 21
+[10-Jan-2018 11:02:02 Asia/Tehran] PHP Fatal error:  Class 'JText' not found in /home/amlakga1/public_html/prestashopAPI.php on line 23
+[10-Jan-2018 11:05:33 Asia/Tehran] PHP Warning:  Creating default object from empty value in /home/amlakga1/public_html/prestashopAPI.php on line 31
+[10-Jan-2018 11:06:31 Asia/Tehran] PHP Warning:  Attempt to assign property of non-object in /home/amlakga1/public_html/prestashopAPI.php on line 31
+[10-Jan-2018 11:06:31 Asia/Tehran] PHP Warning:  Attempt to assign property of non-object in /home/amlakga1/public_html/prestashopAPI.php on line 32
+[10-Jan-2018 11:06:31 Asia/Tehran] PHP Warning:  Attempt to assign property of non-object in /home/amlakga1/public_html/prestashopAPI.php on line 33
+[10-Jan-2018 11:07:41 Asia/Tehran] PHP Fatal error:  Class 'JAuthentication' not found in /home/amlakga1/public_html/prestashopAPI.php on line 38
+[10-Jan-2018 11:08:09 Asia/Tehran] PHP Fatal error:  Class 'JAuthentication' not found in /home/amlakga1/public_html/prestashopAPI.php on line 38
+[10-Jan-2018 11:32:51 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:32:51 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:35:13 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:35:13 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:35:29 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:35:29 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:35:43 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:35:43 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:35:48 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:35:48 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:35:51 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:35:51 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:37:19 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:37:19 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:40:57 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:40:57 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:41:00 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:41:00 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:41:20 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:41:20 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:44:18 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:44:18 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:44:21 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:44:21 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:46:58 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:46:58 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:46:58 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:46:58 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:47:00 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:47:00 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:47:04 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:47:04 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:47:17 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:47:17 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:47:18 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:47:18 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:47:30 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:47:30 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:47:31 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:47:31 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:48:18 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:48:18 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:49:34 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:49:34 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:49:35 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:49:35 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:50:18 Asia/Tehran] PHP Fatal error:  Class 'Cookie' not found in /home/amlakga1/public_html/prestashopAPI.php on line 39
+[10-Jan-2018 11:50:30 Asia/Tehran] PHP Fatal error:  Class 'Context' not found in /home/amlakga1/public_html/prestashop/classes/Cookie.php on line 68
+[10-Jan-2018 11:50:33 Asia/Tehran] PHP Fatal error:  Class 'Context' not found in /home/amlakga1/public_html/prestashop/classes/Cookie.php on line 68
+[10-Jan-2018 11:51:11 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:51:11 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:51:13 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:51:13 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:59:08 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:59:08 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 11:59:22 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 428
+[10-Jan-2018 11:59:22 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amlakga1/public_html/prestashopAPI.php:2) in /home/amlakga1/public_html/prestashop/classes/shop/Shop.php on line 429
+[10-Jan-2018 14:13:09 Asia/Tehran] PHP Parse error:  syntax error, unexpected ''back'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/amlakga1/public_html/prestashopAPI.php on line 11
+[11-Jan-2018 11:45:12 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/animation.php on line 10
+[11-Jan-2018 11:45:21 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/animation.php on line 10
+[11-Jan-2018 11:45:43 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/animation.php on line 10
+[11-Jan-2018 11:57:04 Asia/Tehran] PHP Fatal error:  Call to undefined function base_url() in /home/amlakga1/public_html/animation.php on line 52
+[16-Feb-2018 16:17:28 Asia/Tehran] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/amlakga1/public_html/application/controllers/Login.php on line 47
+[16-Feb-2018 16:17:32 Asia/Tehran] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/amlakga1/public_html/application/controllers/Login.php on line 47
+[28-Feb-2018 09:29:19 Asia/Tehran] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::inserted_id() in /home/amlakga1/public_html/application/controllers/StudentExamination.php on line 71
+[05-Mar-2018 11:25:23 Asia/Tehran] PHP Parse error:  syntax error, unexpected '}' in /home/amlakga1/public_html/application/controllers/Examination.php on line 148
+[05-Mar-2018 11:26:33 Asia/Tehran] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::inserted_id() in /home/amlakga1/public_html/application/controllers/Examination.php on line 70
+[05-Mar-2018 13:58:53 Asia/Tehran] PHP Warning:  require(../php-export-data.class.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/test_big_excel_file.php on line 7
+[05-Mar-2018 13:58:53 Asia/Tehran] PHP Warning:  require(../php-export-data.class.php): failed to open stream: No such file or directory in /home/amlakga1/public_html/test_big_excel_file.php on line 7
+[05-Mar-2018 13:58:53 Asia/Tehran] PHP Fatal error:  require(): Failed opening required '../php-export-data.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/amlakga1/public_html/test_big_excel_file.php on line 7
+[07-Mar-2018 11:07:40 Asia/Tehran] PHP Parse error:  syntax error, unexpected '' FROM  e.`tagsIDList`))) ' (T_CONSTANT_ENCAPSED_STRING) in /home/amlakga1/public_html/application/controllers/Examination.php on line 104

@@ -1,0 +1,103 @@
+/* CSS Document */
+body{
+	font-family:'tahoma';	
+}
+#eraedahande{
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0px 0px 15px #CCC;
+	width:80%;
+	padding:25px;
+	line-height:50px;
+}
+#mosharekat_k{
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0px 0px 15px #CCC;
+	width:80%;
+	margin-top:25px;
+	height:400px;
+	padding:25px;
+}
+#mosharekat_k_div{
+	float:right;
+	height:370px;
+	overflow-y:scroll;
+	width:45%;
+	border:1px solid #ccc;		
+	padding:10px;
+	
+}
+.mk{
+	padding:10px;
+	margin-bottom:2px;
+	transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;	
+	background-color:#0FC;
+}
+.mk:hover{
+	background-color:#F99;	
+}
+#absents{
+	border:1px solid #F9C;
+	float:left;
+	height:370px;
+	overflow-y:scroll;
+	width:45%;
+	padding:10px;	
+}
+#absents>div{
+	box-shadow:1px 1px 2px #F00;
+	padding:12px;
+	margin-bottom:2px;		
+	transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;	
+}
+#save{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0px 0px 15px #CCCCCC;
+	padding:25px;
+	margin-top:25px;
+	text-align:center;
+	margin-bottom:25px;
+	background-color:#CFC;
+}
+#save a{
+	float:left;
+	color:#0C6;	
+	cursor:pointer;
+}
+#save a img{
+	float:left;
+	margin-top:-5px;	
+}
+input[type=text]{
+	width:40px;	
+	text-align:center;
+	padding:5px;
+	box-shadow:0px 0px 2px #CCC;
+}
+input[type=text]:focus{
+	box-shadow:0px 0px 2px #00CC33;	
+}
+#dateerae{
+	width:100px;	
+}
+#surat_jalase_div{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0px 0px 15px #CCCCCC;
+	padding:25px;
+	margin-top:25px;
+	text-align:center;	
+}
+#surat_jalase{
+	width:100%;
+	margin-top:10px;	
+	font-family:'tahoma';
+}

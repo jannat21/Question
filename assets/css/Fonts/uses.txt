@@ -1,0 +1,13 @@
+﻿	@font-face {
+    font-family: 'B Koodak';
+    src: url('http://aep:3535/css/fonts/BKoodakBold.eot?#') format('eot'),
+         url('http://aep:3535/css/fonts/BKoodakBold.woff') format('woff'),
+         url('http://aep:3535/css/fonts/BKoodakBold.ttf') format('truetype');
+		 }
+
+    @font-face {
+    font-family: 'B Nazanin';
+    src: url('http://aep:3535/css/fonts/BNazanin.eot?#') format('eot'),
+         url('http://aep:3535/css/fonts/BNazanin.woff') format('woff'),
+         url('http://aep:3535/css/fonts/BNazanin.ttf') format('truetype');
+		 }

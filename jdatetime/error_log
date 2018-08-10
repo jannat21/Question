@@ -1,0 +1,6 @@
+[19-Apr-2017 11:41:58 Asia/Tehran] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (@) at position 0 (@): Unexpected character' in /home/amlakga1/public_html/jdatetime/jdatetime.class.php:130
+Stack trace:
+#0 /home/amlakga1/public_html/jdatetime/jdatetime.class.php(130): DateTime->__construct('@', Object(DateTimeZone))
+#1 /home/amlakga1/public_html/jdatetime/examples.php(27): jDateTime::date('l M jS, Y', NULL, false, false)
+#2 {main}
+  thrown in /home/amlakga1/public_html/jdatetime/jdatetime.class.php on line 130

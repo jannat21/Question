@@ -1,0 +1,94 @@
+/* CSS Document */
+@font-face{
+	font-family:'B Koodak';
+	src:url('Fonts/BKoodakBold.eot'),url('Fonts/BKoodakBold.woff'),url('Fonts/BKoodakBold.ttf');
+}
+@font-face {
+	font-family:'B Nazanin';
+	src:url('Fonts/BNazanin.eot'),url('Fonts/BNazanin.woff'),url('Fonts/BNazanin.ttf');
+}	
+@font-face {
+	font-family:'B Traffic';
+	src:url('Fonts/BTraffic.eot'),url('Fonts/BTraffic.woff'),url('Fonts/BTraffic.ttf');
+}
+@font-face {
+	font-family:'B Yagut';
+	src:url('Fonts/BYagut.eot'),url('Fonts/BYagut.woff'),url('Fonts/BYagut.ttf');
+}
+body{
+	font-family:'b koodak','B Traffic','tahoma';	
+}
+input{
+	font-family:'b koodak','B Traffic','tahoma';	
+}
+#content{
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+	color:#666666;
+	margin-bottom:10px;
+}
+.logo{
+	text-align:center;		
+}
+.img_title{
+	height:90px;
+	margin-top:10px;
+}
+.img_arm{
+	margin-top:-30px;
+}
+.table_contain{
+	padding-bottom:20px;
+	margin-bottom:10px;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+	margin:auto;
+	width:300px;
+	margin-bottom:10px;
+	color:#666666;
+	box-shadow: 0px 2px  2px #f6f6f6;
+	-moz-box-shadow: 0px 2px 2px #f6f6f6;
+	-webkit-box-shadow: 0px 2px 2px #f6f6f6;
+}
+td{
+	width:100px;
+	text-align:center;
+}
+input{
+	transition:all 1s ease-in;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+}
+.submit_button{
+	padding:10px;
+	text-align:center;
+}
+.login_button{
+	background-color:#DDD;
+	border:none;
+	width:100px;
+	text-align:center;
+	cursor:pointer;
+	text-decoration:none;
+	height:35px;
+	line-height:35px;
+	display:inline-block;
+	transition:all 1s ease-in;
+	-moz-transition:all 1s ease;
+	-webkit-transition:all 1s ease;
+}
+.login_button:hover{	
+	color:#aaa;
+	background-color:#EEE;
+}
+.login_button:focus{
+	color:#aaa;
+	background-color:#EEE;
+}
+.error{
+	color:#FF0000;
+}
