@@ -75,13 +75,18 @@ class School extends MY_Controller {
 
     function exportClassStudent2Excel($md5ClassID) {
 
-        
         $sql = "SELECT * FROM class_student WHERE md5(classID)='$md5ClassID'";
         $res = $this->db->query($sql)->result();
-        $columnHeader = "" . "\t" . "#" . "\t" . "کد دانش آموزی" . "\t" . "نام" . "\t" . "نام خانوادگی" . "\t";
+        $StudentCodeTemp = $res[0]->studentCode;
+        $studentCodeArray = str_split($StudentCodeTemp);
+        $columnHeader = "" . "\t" . "کد دانش آموزی" . "\t" . "نام" . "\t" . "نام خانوادگی" . "\t";
+        $numCounter = 0;
+        foreach ($studentCodeArray as $num) {
+            $numCounter += 1;
+            $columnHeader .= "d" . $numCounter . "\t";
+        }
         $setData = '';
         $counter = 0;
-        print_r($res[0]->studentCode);
 
         foreach ($res as $r) {
             $counter += 1;
@@ -90,11 +95,17 @@ class School extends MY_Controller {
             $rowData .= $r->studentCode . "\t";
             $rowData .= $r->studentName . "\t";
             $rowData .= $r->studentFamily . "\t";
+
+            $studentCodeArray = str_split($r->studentCode);
+            foreach ($studentCodeArray as $num) {
+                $rowData .= $num . "\t";
+            }
+
             $setData .= trim($rowData) . "\n";
         }
 
         header("Content-type: application/octet-stream");
-        header("Content-Disposition: attachment; filename=User_Detail_Reoprt.xls");
+        header("Content-Disposition: attachment; filename=StudentList.xls");
         header('Content-Transfer-Encoding: binary');
         header("Pragma: no-cache");
         header("Expires: 0");
