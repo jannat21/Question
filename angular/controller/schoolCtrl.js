@@ -72,25 +72,29 @@
         };
 
         sc.newStudentModal = function () {
-            sc.newStudent = {code:'',name:'',family:''};
+            sc.newStudent = {code: '', name: '', family: ''};
             $('#newStudentModal').modal('show');
         };
 
-        sc.saveNewStudent = function (insertNewStudentForm) {            
+        sc.saveNewStudent = function (insertNewStudentForm) {
             if (insertNewStudentForm.$valid) {
                 schoolFactory.saveNewStudent(sc.newStudent, sc.selectedClass).success(function (data) {
                     console.log(data);
-                    if(data.result=='repeated'){
+                    if (data.result == 'repeated') {
                         toastr.error("کد دانش آموزی وارد شده تکراری است.", "خطا!");
                     }
-                    if(data.result=='success'){
+                    if (data.result == 'success') {
                         toastr.success("اطلاعات با موفقیت ثبت شد.", "ثبت اطلاعات!");
-                        sc.newStudent = {code:'',name:'',family:''};
+                        sc.newStudent = {code: '', name: '', family: ''};
                         sc.classStudentList = data.data;
-                        
+
                     }
                 }).error(function (data) {});
             }
+        };
+
+        sc.getClassExportExcelLink = function (sc_class) {
+            return siteUrl + '/School/exportClassStudent2Excel/' + sc_class.md5ClassID;
         };
 
     }// end of controller function courceCtrl

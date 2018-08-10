@@ -32,6 +32,9 @@
                     <button ng-click="sc.getStudentList(sc_class)" class="btn btn-primary btn-xs pull-left" data-tooltip="لیست دانش آموزان کلاس">
                         <i class="fa fa-users"></i>
                     </button>
+                    <a ng-href="{{sc.getClassExportExcelLink(sc_class)}}" target="_blank" class="btn btn-info btn-xs pull-left" data-tooltip="لیست کلاس به اکسل" style="margin-left: 3px;">
+                        <i class="fa fa-file-excel-o"></i>
+                    </a>
                 </div>
             </div>
             <div class="panel-footer">
@@ -74,7 +77,7 @@
                 <i ng-show="sc.waitingShowClassStudent == 1" class="fa fa-spin fa-spinner text-warning"></i>
                 <div class="text-danger" ng-show="sc.classStudentList.length == 0">دانش آموزی ثبت نشده است.</div>
 
-                <div ng-repeat="student in sc.classStudentList|filter:sc.searchClass" class="col-md-4 col-sm-6 col-xs-12">
+                <div ng-repeat="student in sc.classStudentList | filter:sc.searchClass" class="col-md-4 col-sm-6 col-xs-12">
                     <div class="list-group-item list-group-item-text">
                         <div class="pull-left fa fa-edit fa-2x" style="cursor: pointer;" ></div>
                         <p><label>کد دانش آموزی:</label>&nbsp; {{student.studentCode}}</p>
